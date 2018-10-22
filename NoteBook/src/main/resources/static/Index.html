@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Index</title>
+<link rel="stylesheet" href="jquery-ui.min.css">
+
+<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+<script src="/postRequest.js"></script>
+
+
+
+
+
+</head>
+<body>
+	<form id="IndexForm">
+		Input:<br> <input type="text" id="code" size="100"> <br>
+		<br> <input type="submit" value="Run">
+	</form>
+	<br>
+	<output id="x"></output>
+
+	
+	<script src="jquery-ui.min.js"></script>
+	<script src="jquery.sessionTimeout.js"></script>
+
+	<script>
+		$.sessionTimeout({
+			warnAfter : 100000,
+			redirAfter : 200000
+		});
+		
+	</script>
+</body>
+</html>
